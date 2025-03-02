@@ -21,29 +21,29 @@ Ensure you have the following installed:
 
 sh
 # Clone the repository
-git clone https://github.com/yourusername/vulnerability-scanner.git
-cd vulnerability-scanner
+`git clone https://github.com/yourusername/vulnerability-scanner.git`
+`cd vulnerability-scanner`
 
 # Create a virtual environment
-python -m venv venv
+`python -m venv venv
 source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate  # Windows
+venv\Scripts\activate  # Windows`
 
 # Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 
 ## 🛠️ Usage
 
 sh
-python scanner.py <target_ip_or_domain>
+`python scanner.py <target_ip_or_domain>`
 
 
 Example:
 
 sh
-python scanner.py 192.168.1.1
+`python scanner.py 192.168.1.1`
 
 
 
